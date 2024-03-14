@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.dm-serif display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+:root {
+  --main-color: #ffffff;
+  --heading-color: #081f32;
+  --p-color: #6e798c;
+  --forth-color: #a5adbb;
+  --price-color: #f8593b;
+  --button-color: #2ecc71;
+}
+html {
+  font-size: 10px;
+}
+body {
+  background-color: #c4c4c4;
+}
+.e-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.card {
+  position: relative;
+  width: 360px;
+  height: 530px;
+  border-radius: 16px;
+  background-color: var(--main-color);
+}
+.card-img img {
+  height: 216px;
+  width: 360px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.card-text {
+  padding: 32px 24px;
+}
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-title span {
+  color: var(--heading-color);
+  font-size: 2.4rem;
+  line-height: 25px;
+  letter-spacing: 1px;
+  font-family: "DM Serif Display", serif;
+}
+.type img {
+  padding-left: 8px;
+}
+.card-desc p {
+  margin-top: 24px;
+  font-size: 1.6rem;
+  line-height: 25px;
+  color: var(--p-color);
+  font-family: "Open Sans", sans-serif;
+}
+.card-details ul {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.card-details ul li {
+  list-style: none;
+  color: var(--forth-color);
+  font-size: 1.6rem;
+  line-height: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.card-buttons {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.price {
+  display: flex;
+}
+.price p {
+  font-family: "DM Serif Display", serif;
+  font-size: 2.8rem;
+  color: var(--heading-color);
+  line-height: 25px;
+}
+
+.price span {
+  color: var(--price-color);
+  font-family: "DM Serif Display", serif;
+  font-size: 2rem;
+  line-height: 25px;
+  padding-left: 8px;
+  text-decoration: line-through;
+}
+.order a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 114px;
+  height: 44px;
+  background-color: var(--button-color);
+  color: var(--main-color);
+  font-family: "Open Sans", sans-serif;
+  line-height: 25px;
+  letter-spacing: 3px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.info {
+  position: absolute;
+  right: 24px;
+  top: 16px;
+}
